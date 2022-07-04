@@ -7,6 +7,7 @@ Bot en desarrollo
 ```
 git clone https://github.com/WilzTeN/DarthBot.git
 cd DarthBot
+npm i
 ```
 ## Crea un archivo .env con lo siguiente
 
