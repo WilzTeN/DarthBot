@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@discordjs/rest": "^0.5.0",
+    "canvas": "^2.9.1",
+    "discord-arts": "^0.0.6",
+    "discord.js": "^13.6.0",
+    "discord.js-akinator": "^3.4.5",
+    "djs-minigames": "^1.0.8",
+    "dotenv": "^16.0.1",
+    "fietu": "^1.1.36",
+    "reconlx": "^1.4.21"
+  }
+}
