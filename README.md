@@ -28,3 +28,7 @@ guildId: guildId
 node slashcommands.js
 node start
 ```
+
+##### misc
+
+Algunos comandos y funciones estan comentadas, es decir, estan en desarrollo. Se bienvenido de mejorarlos e incluso ¡Crear nuevos!
