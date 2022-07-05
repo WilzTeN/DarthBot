@@ -5,13 +5,14 @@ const { Routes } = require("discord-api-types/v9")
 const { clientID, guild } = require("./config.json")
 const commands = []
 const slashcommandsFiles = fs.readdirSync("./slashcmd").filter(file => file.endsWith("js"));
+require('dotenv').config()
 
 for(const file of slashcommandsFiles){
     const slash = require(`./slashcmd/${file}`)
     commands.push(slash.data.toJSON())
 }
 
-const rest = new REST({ version: "9" }).setToken("OTYyNDczNTg0MzE4NjE5NjY4.YlIDYA.YHabkKSgIYHSVL3dxpQJ3f4e2x4")
+const rest = new REST({ version: "9" }).setToken("process.env.token")
 
 createSlash()
 
